@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Resume — Daniel Anderla's Tech Stack</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">Daniel Anderla</a>
+      <button id="menuBtn" class="menu-btn" aria-label="Toggle menu">☰</button>
+      <nav id="mainNav" class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="stack.html">Tech Stack</a>
+        <a href="resume.html" aria-current="page">Resume</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Top section with title + buttons -->
+    <section class="hero">
+      <div class="container">
+        <h1>Resume</h1>
+        <p class="tagline">
+          Software developer focused on writing fast, clean code and building tools that make people’s lives easier.
+        </p>
+        <div class="cta-row">
+          <!-- Change resume.pdf to your actual file name if different -->
+          <a class="btn" href="resume.pdf" download>Download PDF</a>
+          <a class="btn ghost" href="mailto:youremail@example.com">Contact Me</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Summary -->
+    <section class="section">
+      <div class="container">
+        <h2>Summary</h2>
+        <article class="card">
+          <p>
+            Motivated developer with experience in C++, Java, and JavaScript, building projects like a cache simulator
+            and full-stack web apps. Strong focus on performance, clean architecture, and learning new technologies quickly.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="section alt">
+      <div class="container">
+        <h2>Experience</h2>
+
+        <article class="card">
+          <h3>Software Developer — [Company Name]</h3>
+          <p class="muted">[City, State] · [Start Date] – [End Date or Present]</p>
+          <ul>
+            <li>Implemented and optimized features in [tech stack], improving performance or usability.</li>
+            <li>Collaborated with a team to design, build, and ship production-ready software.</li>
+            <li>Worked with tools like Git, code reviews, and issue trackers to maintain code quality.</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>Personal & Academic Projects</h3>
+          <p class="muted">Various · Ongoing</p>
+          <ul>
+            <li>Built a <strong>Cache Simulator</strong> in C++ comparing LRU vs LFU with benchmark visualization.</li>
+            <li>Developed this <strong>Portfolio Site</strong> using HTML, CSS, and vanilla JavaScript.</li>
+            <li>Created backend and database projects using Java, REST APIs, SQLite, and PostgreSQL.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="grid">
+          <article class="card">
+            <h3>Languages</h3>
+            <p class="muted">C++, Java, JavaScript, HTML, CSS</p>
+          </article>
+          <article class="card">
+            <h3>Tools & Frameworks</h3>
+            <p class="muted">Git, REST APIs, basic Spring Boot, build tools, debugging & profiling tools.</p>
+          </article>
+          <article class="card">
+            <h3>Databases</h3>
+            <p class="muted">SQLite, PostgreSQL</p>
+          </article>
+          <article class="card">
+            <h3>Other</h3>
+            <p class="muted">Problem solving, clean code practices, performance-minded design, teamwork.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section class="section alt">
+      <div class="container">
+        <h2>Education</h2>
+        <article class="card">
+          <h3>[Your Degree] — [Your School]</h3>
+          <p class="muted">[Location] · [Graduation Year]</p>
+          <p>
+            Relevant coursework: Data Structures & Algorithms, Operating Systems, Databases, Software Engineering, etc.
+          </p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year"></span> Daniel</small>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

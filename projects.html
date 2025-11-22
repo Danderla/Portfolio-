@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Projects — Daniel</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">Daniel</a>
+      <button id="menuBtn" class="menu-btn" aria-label="Toggle menu">☰</button>
+      <nav id="mainNav" class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="projects.html" aria-current="page">Projects</a>
+        <a href="stack.html">Tech Stack</a>
+        <a href="resume.html">Resume</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <h1>Projects</h1>
+      <p class="muted">Here are some of the projects I’ve built, each chosen to deepen my understanding of performance, clean architecture, and practical software development. You’ll find descriptions, the tech used, and links to the code or demos.
+      </p>
+
+      <!-- If you prefer, delete the hardcoded cards and let script.js render them -->
+      <div id="projectGrid" class="grid">
+        <article class="card">
+          <h3>Cache Simulator</h3>
+          <p>Simulates LRU vs LFU; reports hit/miss and runtime.</p>
+          <p class="meta">C++ · STL</p>
+          <a class="link" href="https://github.com/yourname/cache-sim" target="_blank">GitHub</a>
+        </article>
+
+        <article class="card">
+          <h3>REST API Service</h3>
+          <p>Java Spring Boot service with Postgres.</p>
+          <p class="meta">Java · Spring · Postgres</p>
+          <a class="link" href="https://github.com/yourname/api-service" target="_blank">GitHub</a>
+        </article>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year"></span> Daniel</small>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Home — Daniel Anderla's Tech Stack
+  </title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">Daniel Anderla's Tech Stack</a>
+      <button id="menuBtn" class="menu-btn" aria-label="Toggle menu">☰</button>
+      <nav id="mainNav" class="nav-links">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="stack.html">Tech Stack</a>
+        <a href="resume.html">Resume</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+  <div class="container hero-content">
+    <div class="hero-text">
+      <h1>Hi, I’m Daniel Anderla and this is my Portfolio!</h1>
+      <p class="tagline">
+        I build fast, clean software but have the goal to make a positive change in people's lives with my abilities!
+      </p>
+      <div class="cta-row">
+        <a class="btn" href="projects.html">See my projects</a>
+        <a class="btn ghost" href="stack.html">View my tech stack</a>
+      </div>
+    </div>
+
+    <!-- ✅ your image -->
+    <img src="me.jpeg" alt="Picture of Daniel Anderla" class="hero-img" />
+  </div>
+</section>
+
+
+  <main>
+  <section class="section">
+    <div class="container">
+      <h2>My Resume</h2>
+      <article class="card">
+        <h3>Daniel Anderla</h3>
+        <p class="muted">Computer Science student at Towson University</p>
+
+        <p>
+          I’m focused on building fast, clean software with C++, Java, and JavaScript,
+          and I’m especially interested in performance, backend systems, and practical tools
+          that make people’s lives easier.
+        </p>
+
+        <ul class="inline">
+          <li>C++ · Java · JavaScript</li>
+          <li>SQLite · PostgreSQL</li>
+          <li>Backend & systems projects</li>
+        </ul>
+
+        <div class="cta-row" style="margin-top:1rem;">
+          <a class="btn" href="resume.html">View Resume</a>
+          <a class="btn ghost" href="resume.pdf" download>Download PDF</a>
+        </div>
+      </article>
+    </div>
+  </section>
+</main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year"></span> Daniel</small>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

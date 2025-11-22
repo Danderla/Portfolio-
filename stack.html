@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Tech Stack — Daniel</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">Daniel</a>
+      <button id="menuBtn" class="menu-btn" aria-label="Toggle menu">☰</button>
+      <nav id="mainNav" class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="stack.html" aria-current="page">Tech Stack</a>
+        <a href="resume.html">Resume</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <h1>Tech Stack</h1>
+      <p class="muted">Here’s a breakdown of my tech stack—what I use, why I use it, and where each tool fits into my projects.</p>
+
+      <div class="stack grid">
+        <section class="card">
+          <h3>Frontend</h3>
+          <ul>
+            <li><strong>HTML & CSS</strong> — clean, accessible UI basics.</li>
+            <li><strong>JavaScript</strong> — interactivity and data fetching.</li>
+            <li><strong>React (later)</strong> — components & state management.</li>
+          </ul>
+        </section>
+
+        <section class="card">
+          <h3>Backend</h3>
+          <ul>
+            <li><strong>Node/Express (later)</strong> — simple REST APIs.</li>
+            <li><strong>Java Spring Boot (optional)</strong> — strong typing & structure.</li>
+          </ul>
+        </section>
+
+        <section class="card">
+          <h3>Data</h3>
+          <ul>
+            <li><strong>SQLite → PostgreSQL</strong> — start simple, scale to relational.</li>
+          </ul>
+        </section>
+
+        <section class="card">
+          <h3>Dev Tools</h3>
+          <ul>
+            <li><strong>Git & GitHub</strong> — version control and hosting.</li>
+            <li><strong>VS Code</strong> — editor with helpful extensions.</li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year"></span> Daniel</small>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
